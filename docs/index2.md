@@ -1,4 +1,5 @@
 ---
+lang: en
 redirect_from:
 - /toc/
 - /目录/
