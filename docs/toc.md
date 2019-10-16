@@ -1,7 +1,9 @@
 ---
 lang: en
-permalink: toc
+permalink: index
 redirect_from:
+- /toc/
+- /TOC/
 - /目录/
 ---
 
