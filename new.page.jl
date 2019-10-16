@@ -1,3 +1,5 @@
+indexfile = "toc.md"
+
 function uuid4file(ext::String)
     using UUIDs: uuid4
     while true
@@ -13,8 +15,13 @@ function uuid4file(ext::String)
 end
 
 cd("docs")
-id = uuid4file(".md")
-open("index", "a") do io
-    println(io, id)
+if isfile(indexfile)
+    id = uuid4file(".md")
+    open(indexfile, "a") do io
+        println(io, "[]($id)")
+    end
+    readline()
+else
+    println("ERROR")
+    readline()
 end
-readline(stdin)
