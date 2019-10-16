@@ -5,7 +5,7 @@ redirect_from:
 - /idx/
 - /IDX/
 - /索引/
-style: "a{color:white}body{margin:1rem;line-height:2rem}"
+styles: "a{color:#ffffff}body{margin:1rem;line-height:2rem}"
 ---
 
 [城南旧事](114ff57d-208f-4cc4-a19c-1718fdc3389c/)	林海音
