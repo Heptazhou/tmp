@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: "zh" }}">
 {% include head.html %}
-<body style="margin: 1rem; line-height: 2rem; white-space: pre-line">
-	{% if page.title %}<header>
-		<h1>{{ page.title }}</h1>
-		{% if page.description %}<h2>{{ page.description }}</h2>{% endif %}
+<body style="margin: 1rem; line-height: 2rem; white-space: pre-line">{% if page.title %}
+	<header>
+		<h1>{{ page.title }}</h1>{% if page.description %}
+		<h2>{{ page.description }}</h2>{% endif %}
 		<br /><br />
 	</header>
 	<hr /><br />{% endif %}
