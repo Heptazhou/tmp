@@ -12,4 +12,4 @@ function uuid4file(ext::String)
 end
 
 cd("docs")
-uuid4file(".html")
+uuid4file(".md")
