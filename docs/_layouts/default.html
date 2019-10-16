@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: "zh" }}">
 {% include head.html %}
-<body>{% if page.title %}
+<body style="{{ page.body_style | default: "margin: 1rem; line-height: 2rem; white-space: pre-line" }}">{% if page.title %}
 	<header>
 		<h1>{{ page.title }}</h1>{% if page.description %}
 		<h2>{{ page.description }}</h2>{% endif %}
