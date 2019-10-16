@@ -1,10 +1,11 @@
 ---
 lang: en
-permalink: index
+permalink: /目录
 redirect_from:
+- /idx/
+- /IDX/
 - /toc/
 - /TOC/
-- /目录/
 ---
 
 [城南旧事](114ff57d-208f-4cc4-a19c-1718fdc3389c)	林海音
