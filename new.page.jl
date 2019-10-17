@@ -1,7 +1,8 @@
+using UUIDs: uuid4
+
 indexfile = "idx.md"
 
 function uuid4file(ext::String)
-    using UUIDs: uuid4
     while true
         id = string(uuid4())
         fname = id * ext
