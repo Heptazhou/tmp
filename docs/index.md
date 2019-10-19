@@ -1,7 +1,6 @@
 ---
 permalink: /index
 redirect_from:
-- /
 - /index.html
 ---
 
