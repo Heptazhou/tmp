@@ -1,6 +1,6 @@
 using UUIDs: uuid4
 
-indexfile = "idx.md"
+indexfile = "index2.md"
 
 function uuid4file(ext::String)
     while true

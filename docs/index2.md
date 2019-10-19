@@ -1,10 +1,6 @@
 ---
 lang: en
-permalink: /idx
-redirect_from:
-- /idx/
-- /IDX/
-- /索引/
+permalink: /index/
 body_style: "margin: 1rem; line-height: 2rem"
 ---
 
