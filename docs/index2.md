@@ -1,6 +1,8 @@
 ---
 lang: en
-permalink: /index/
+permalink: /i
+redirect_from:
+- /i/
 body_style: "margin: 1rem; line-height: 2rem"
 ---
 
