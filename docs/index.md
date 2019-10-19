@@ -1,5 +1,7 @@
 ---
-permalink: /index
+permalink: /index/
+redirect_from:
+- /index.html
 ---
 
 >人的生命是有限的 知识是那么浩瀚 即使你怎么尽全力地努力 也只能得到一点点

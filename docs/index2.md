@@ -1,6 +1,6 @@
 ---
 lang: en
-permalink: /index/
+permalink: /index
 body_style: "margin: 1rem; line-height: 2rem"
 ---
 
