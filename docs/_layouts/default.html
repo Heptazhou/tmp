@@ -16,7 +16,7 @@
 {{ content }}
 	<script>
 		var matches = document.querySelectorAll("a");
-		matches.forEach(function (match) { if (match.href == "" && match.title != "") match.onclick = "alert(this.title)"; });
+		matches.forEach(function (match) { if (match.href == "" && match.title != "") match.setAttribute("onclick", "alert(this.title)"); });
 	</script>
 </body>
 </html>
