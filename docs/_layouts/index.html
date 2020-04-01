@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: "zh" }}">
 <head>{% include head.html %}
-	<style>body{margin: 1rem; line-height: 2rem; white-space: pre-line}</style>
+	<style>body{margin: 1rem; line-height: 2rem}</style>
 </head>{% if page.uuid %}
 <!--
 {{ page.uuid }}
@@ -13,10 +13,5 @@
 		<br /><br />
 	</header>
 	<hr /><br />{% endif %}
-{{ content }}
-	<script>
-		var matches = document.querySelectorAll("a");
-		matches.forEach(function (match) { if (match.href == "" && match.title != "") match.onclick = "alert(this.title)"; });
-	</script>
-</body>
+{{ content }}</body>
 </html>

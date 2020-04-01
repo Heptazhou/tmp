@@ -1,9 +1,9 @@
 ---
+layout: index
 lang: en
 permalink: /i
 redirect_from:
 - /i/
-body_style: "margin: 1rem; line-height: 2rem"
 ---
 
 [白马啸西风](38b381a7-11e5-450c-9ac9-b5176e9afe61/)	金庸
