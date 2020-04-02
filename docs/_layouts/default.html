@@ -15,8 +15,8 @@
 	<hr /><br />{% endif %}
 {{ content }}
 	<script>
-		var matches = document.querySelectorAll("a");
-		matches.forEach(function (match) { if (match.href == "" && match.title != "") match.setAttribute("onclick", "alert(this.title)"); });
+		var list = document.querySelectorAll("a");
+		for (var i = 0; i < list.length; i++) { if (list[i].href == "" && list[i].title != "") list[i].setAttribute("onclick", "alert(this.title)"); }
 	</script>
 </body>
 </html>
