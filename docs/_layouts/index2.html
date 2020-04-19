@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: "en" }}">
 <head>{% include head.html %}
+	<style>body{margin: 1rem; line-height: 2rem}</style>
 </head>{% if page.uuid %}
 <!--
 {{ page.uuid }}
@@ -12,5 +13,10 @@
 		<br /><br />
 	</header>
 	<hr /><br />{% endif %}
-{{ content }}</body>
+{{ content }}
+	<script>
+		var list = document.querySelectorAll("a");
+		for (var i = 0; i < list.length; i++) { if (list[i].href == "" && list[i].title != "") list[i].setAttribute("onclick", "alert(this.title)"); }
+	</script>
+</body>
 </html>

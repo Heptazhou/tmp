@@ -1,6 +1,5 @@
 ---
-layout: index
-lang: en
+layout: index2
 permalink: /i
 redirect_from:
 - /i/
