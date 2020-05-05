@@ -10,7 +10,7 @@ function uuid4file(ext::String)
         else
             println(pwd(), ">\n", fname)
             open(fname, "w") do io
-                print(io, "---\r\ntitle: 标题\r\ndescription: 描述\r\npermalink: /标题描述/\r\nredirect_from:\r\n- /标题/\r\n- /$id/\r\nuuid: $id\r\n---\r\n\r\n")
+                print(io, "---\ntitle: 标题\ndescription: 描述\npermalink: /标题描述/\nredirect_from:\n- /标题/\n- /$id/\nuuid: $id\n---\n\n")
             end
             return id
         end
