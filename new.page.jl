@@ -1,4 +1,5 @@
-using UUIDs: uuid4
+using UUID4: uuid
+const uuid4 = uuid
 
 const indexfile = "index2.md"
 const newfileext = ".md"
@@ -26,4 +27,7 @@ if isfile(indexfile)
 else
 	@info "错误"
 end
+isempty(ARGS) || exit()
+print("> ")
 readline()
+
