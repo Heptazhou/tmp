@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "zh" }}">
+<head>{% include head.html %}
+	<style>body{white-space: pre-line}</style>
+</head>{% if page.uuid %}
+<!--
+{{ page.uuid }}
+-->{% endif %}
+<body>
+{{ content }}
+	<script>
+		var list = document.querySelectorAll("a");
+		for (var i = 0; i < list.length; i++) { if (list[i].href == "" && list[i].title != "") list[i].setAttribute("onclick", "alert(this.title)"); }
+	</script>
+</body>
+</html>
